@@ -14,7 +14,7 @@ import application.repository.CategoriaRepository;
 
 @Controller
 @RequestMapping("/categoria")
-public class CateoriaController {
+public class CategoriaController {
   @Autowired
   private CategoriaRepository categoriaRepo;
 
