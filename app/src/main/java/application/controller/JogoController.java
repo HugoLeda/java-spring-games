@@ -44,8 +44,7 @@ public class JogoController {
   public String insert(
     @RequestParam("titulo") String titulo,
     @RequestParam("categoria") long idCategoria,
-    @RequestParam("plataformas") long[] idsPlataformas
-  ) {
+    @RequestParam("plataformas") long[] idsPlataformas) {
     Jogo jogo = new Jogo();
     jogo.setTitulo(titulo);
     jogo.setCategoria(categoriaRepo.findById(idCategoria).get());
