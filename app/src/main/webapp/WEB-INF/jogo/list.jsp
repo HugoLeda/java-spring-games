@@ -11,6 +11,8 @@
     <div class="container">
         <h1>Jogos</h1>
         <a href="/jogo/insert" class="btn btn-primary">Novo Jogo</a>
+        <a href="/categoria/list" class="btn btn-primary">Ir para categorias</a>
+        <a href="/plataforma/list" class="btn btn-primary">Ir para plataformas</a>
         <table class="table">
             <tr>
                 <th>Id</th>

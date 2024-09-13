@@ -11,6 +11,8 @@
     <div class="container">
         <h1>Plataformas</h1>
         <a href="/plataforma/insert" class="btn btn-primary">Nova Plataforma</a>
+        <a href="/jogo/list" class="btn btn-primary">Ir para Jogos</a>
+        <a href="/plataforma/list" class="btn btn-primary">Ir para plataformas</a>
         <table class="table">
             <thead>
                 <tr>
